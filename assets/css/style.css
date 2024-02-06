@@ -370,6 +370,12 @@ nav .navbar-main {
     nav{
         padding: 10px 20px !important;
     }
+    .about-left img {
+        top: 120px;
+        right: 0px;
+        width: 350px;
+        height: 300px;
+    }
 }
 @media (max-width: 768px) {
   .navbar-toggler {
