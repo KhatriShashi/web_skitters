@@ -365,6 +365,14 @@ nav .navbar-main {
     background-color: rgb(0, 0, 0,0.7);
     z-index: 0;
 }
+@media (max-width: 576px){
+    nav{
+        padding: 10px 20px !important;
+    }
+    .hero-image{
+        margin-top: -299px;
+    }
+}
 @media (max-width: 768px) {
   .navbar-toggler {
     outline: none;
@@ -375,3 +383,4 @@ nav .navbar-main {
     box-shadow: none;
   }
 }
+
