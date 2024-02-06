@@ -117,6 +117,7 @@ nav .navbar-main {
   margin-top: -87px;
   position: relative;
   z-index: 1;
+  transition: all 0.6s ease;
 }
 .hero-image .hero-image-title {
   display: flex;
@@ -368,9 +369,6 @@ nav .navbar-main {
 @media (max-width: 576px){
     nav{
         padding: 10px 20px !important;
-    }
-    .hero-image{
-        margin-top: -299px;
     }
 }
 @media (max-width: 768px) {

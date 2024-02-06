@@ -36,4 +36,13 @@ $(function () {
       var $nav = $(".navbar-main");
       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
+    $(document).ready(function() {
+        $('#navbarSupportedContent').on('show.bs.collapse', function () {
+            $('.hero-image').css('margin-top', '-299px');
+        });
+        $('#navbarSupportedContent').on('hide.bs.collapse', function () {
+            $('.hero-image').css('margin-top', '-87px');
+        });
+    });
+    
 });
