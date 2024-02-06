@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var x = window.matchMedia("(min-width: 768px)")
-    var y = window.matchMedia("(min-height: 576px)");
+    var y = window.matchMedia("(min-width: 576px)");
     var owl = $('.owl-carousel');
     if(x.matches){
         owl.owlCarousel({
